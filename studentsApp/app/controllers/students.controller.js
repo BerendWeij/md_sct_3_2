@@ -11,15 +11,6 @@
 
         vm.studentName = "Gianni";
 
-        vm.allStudents = [
-            "Daan",
-            "Abdelkarim",
-            "Stijn",
-            "Jimmy",
-            "Yassine",
-            "Sander",
-            "Remco"
-        ];
 
     }
 
