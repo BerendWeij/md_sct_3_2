@@ -9,13 +9,24 @@
 
         var vm = this;
 
-        vm.studentName = "Gianni";
+        vm.newStudent = {};
 
         vm.setCurrentStudent = function(currentStudent){
             if(currentStudent != vm.currentStudent)
                 vm.currentStudent = currentStudent;
             else
                 vm.currentStudent = undefined;
+        };
+
+        vm.addStudent = function(){
+            vm.allStudents.push(
+                {
+                    name: vm.newStudent.name,
+                    age: vm.newStudent.age
+                }
+            );
+
+            vm.newStudent = {};
         };
 
         vm.allStudents = [

@@ -1,9 +1,18 @@
-input, .data-row {
+input, .studentsList-row {
   width:400px;
   padding:5px;
   box-sizing: border-box;
 }
 
-.data-row {
+.studentsList-row {
+  color:black;
+}
 
+.studentsList-row.active {
+  color:orange;
+  margin-left:10px;
+}
+
+.newStudent {
+  border:1px solid black;
 }
