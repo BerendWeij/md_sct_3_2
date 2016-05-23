@@ -18,8 +18,13 @@
             <input type="text" ng-model="students.searchQuery">
 
             <div>Er zijn {{students.allStudents.length}} studenten in deze array</div>
-            <div class="studentsList-row" ng-repeat="currentStudent in students.allStudents | filter:students.searchQuery">
-                {{currentStudent}}
+            <div class="studentsList-row" ng-click="students.setStudent(currentStudent)" ng-repeat="currentStudent in students.allStudents | filter:students.searchQuery">
+                {{currentStudent.name}}
+            </div>
+
+            <div ng-if="students.currentStudent">
+                <div>De geselecteerde student is: {{students.currentStudent.name}}</div>
+                <div>Zijn/haar leeftijd is: {{students.currentStudent.age}}</div>
             </div>
 
         </div>
