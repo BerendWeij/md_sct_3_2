@@ -11,14 +11,21 @@
 
         vm.studentName = "Gianni";
 
+        vm.setCurrentStudent = function(currentStudent){
+            if(currentStudent != vm.currentStudent)
+                vm.currentStudent = currentStudent;
+            else
+                vm.currentStudent = undefined;
+        };
+
         vm.allStudents = [
-            "Anton",
-            "Joris",
-            "Cees",
-            "Ryan",
-            "Jesse",
-            "Idris",
-            "Donovan"
+            {name:"Artur", age:20},
+            {name:"Mitchell", age:18},
+            {name:"Remco", age:17},
+            {name:"Dave", age:21},
+            {name:"Sander", age:17},
+            {name:"Jimmy", age:18},
+            {name:"Yassine", age:19}
         ];
 
 

@@ -15,12 +15,16 @@
     -->
         <div ng-controller="StudentsController as students">
 
+            <div ng-if="students.currentStudent">
+                <div>De geselecteerde student is: {{students.currentStudent.name}}</div>
+                <div>Zijn/haar leeftijd is: {{students.currentStudent.age}}</div>
+            </div>
+
             <input type="text" ng-model="students.searchQuery">
 
-            <!--<div>{{students.studentName}}</div>-->
             <div>Er zijn {{students.allStudents.length}} studenten in deze array</div>
-            <div ng-repeat="currentStudent in students.allStudents | filter:students.searchQuery">
-                {{currentStudent}}
+            <div ng-click="students.setCurrentStudent(currentStudent)" ng-repeat="currentStudent in students.allStudents | filter:students.searchQuery">
+                {{currentStudent.name}}
             </div>
 
         </div>
