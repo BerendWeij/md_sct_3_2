@@ -7,12 +7,3 @@ input, .studentsList-row {
 .studentsList-row {
   color:black;
 }
-
-.studentsList-row.active {
-  color:orange;
-  margin-left:10px;
-}
-
-.newStudent {
-  border:1px solid black;
-}
