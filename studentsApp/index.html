@@ -15,10 +15,16 @@
     -->
         <div class="studentsList" ng-controller="StudentsController as students">
 
+            <div class="newStudent">
+                <input type="text" placeholder="naam" ng-model="students.newStudent.name">
+                <input type="text" placeholder="leeftijd" ng-model="students.newStudent.age">
+                <div ng-click="students.createStudent()">toevoegen</div>
+            </div>
+
             <input type="text" ng-model="students.searchQuery">
 
             <div>Er zijn {{students.allStudents.length}} studenten in deze array</div>
-            <div class="studentsList-row" ng-click="students.setStudent(currentStudent)" ng-repeat="currentStudent in students.allStudents | filter:students.searchQuery">
+            <div class="studentsList-row" ng-class="{active:students.currentStudent==currentStudent}" ng-click="students.setStudent(currentStudent)" ng-repeat="currentStudent in students.allStudents | filter:students.searchQuery">
                 {{currentStudent.name}}
             </div>
 

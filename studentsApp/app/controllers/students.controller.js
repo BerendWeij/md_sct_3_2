@@ -9,6 +9,8 @@
 
         var vm = this;
 
+        vm.newStudent = {};
+
         vm.setStudent = function(currentStudent){
             if(vm.currentStudent != currentStudent)
                 vm.currentStudent = currentStudent;
@@ -16,6 +18,16 @@
                 vm.currentStudent = undefined;
 
         };
+
+        vm.createStudent = function(){
+            vm.allStudents.push(
+                {
+                    name: vm.newStudent.name,
+                    age: vm.newStudent.age
+                });
+
+            vm.newStudent = {};
+        }
 
         vm.allStudents = [
             {name:"Anton", age:18},
