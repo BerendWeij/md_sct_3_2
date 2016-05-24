@@ -4,8 +4,14 @@ input, .studentsList-row {
   box-sizing: border-box;
 }
 
+.studentsList {
+  margin: 10px 0px;
+}
+
 .studentsList-row {
   color:black;
+  background: lightgray;
+  border-bottom: 1px dashed white;
 }
 
 .studentsList-row.active {
@@ -17,4 +23,19 @@ input, .studentsList-row {
   margin:10px 0px;
   border:1px solid black;
   padding: 5px;
+}
+
+.newStudent-submit {
+  padding:5px;
+  background: black;
+  color: white;
+  margin: 5px 0px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
 }
