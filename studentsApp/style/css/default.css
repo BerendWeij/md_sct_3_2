@@ -13,14 +13,6 @@ input, .studentsList-row {
   background: lightgray;
   border-bottom: 1px dashed white;
   width: 500px;
-  overflow:hidden;
-}
-
-.studentsList-row.active {
-  color:orange;
-  -ms-transform: scale(1.03); /* IE 9 */
-  -webkit-transform: scale(1.03); /* Safari */
-  transform: scale(1.03);
 }
 
 .studentsList-row.ng-leave.ng-leave-active,
@@ -35,6 +27,11 @@ input, .studentsList-row {
 .studentsList-row.ng-enter.ng-enter-active {
   opacity:1;
   max-height:30px;
+}
+
+.studentsList-row.active {
+  color:orange;
+  margin-left: 10px;
 }
 
 .newStudent {
