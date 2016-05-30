@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "test voor in de klas",
   "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BerendWeij/md_sct_3_2"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
