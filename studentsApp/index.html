@@ -25,6 +25,7 @@
             <div class="studentsList">
                 <div>Er zijn {{students.allStudents.length}} studenten in deze array</div>
                 <input type="text" placeholder="Doorzoek de lijst" ng-model="students.searchQuery">
+                <div ng-click="students.searchQuery='cee'">filter op cee</div>
                 <div class="studentsList-row animatedCSS" ng-class="{active:students.currentStudent==currentStudent}" ng-click="students.setStudent(currentStudent)" ng-repeat="currentStudent in students.allStudents | filter:students.searchQuery">
                     {{currentStudent.name}}
                 </div>

@@ -5,7 +5,7 @@
         .module('controllers')
         .controller('StudentsController', StudentsController);
 
-    function StudentsController() {
+    function StudentsController($http) {
 
         var vm = this;
 
@@ -40,6 +40,10 @@
             {name:"Idris", age:20},
             {name:"Donovan", age:18}
         ];
+
+        $http.get('data/trainstations.json').then(function(stations){
+            vm.allStudents = stations.data;
+        });
 
 
     }

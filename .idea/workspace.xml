@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8db6a26-1d2c-401c-b5b1-1f7097617546" name="Default" comment="" />
+    <list default="true" id="b8db6a26-1d2c-401c-b5b1-1f7097617546" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studentsApp/app/controllers/students.controller.js" afterPath="$PROJECT_DIR$/studentsApp/app/controllers/students.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studentsApp/index.html" afterPath="$PROJECT_DIR$/studentsApp/index.html" />
+    </list>
     <ignored path="md_sct_3_2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,11 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/studentsApp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="810">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainstations.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studentsApp/data/trainstations.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="0" column="328" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="78888" />
               <folding />
             </state>
           </provider>
@@ -43,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="students.controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="students.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/studentsApp/app/controllers/students.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="-514">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -79,8 +92,8 @@
         <option value="$PROJECT_DIR$/les_1/app/controllers/students.controller.js" />
         <option value="$PROJECT_DIR$/les_1/index.html" />
         <option value="$PROJECT_DIR$/studentsApp/app/app.js" />
-        <option value="$PROJECT_DIR$/studentsApp/index.html" />
         <option value="$PROJECT_DIR$/studentsApp/style/css/default.css" />
+        <option value="$PROJECT_DIR$/studentsApp/index.html" />
         <option value="$PROJECT_DIR$/studentsApp/app/controllers/students.controller.js" />
       </list>
     </option>
@@ -93,7 +106,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -487,15 +500,15 @@
       <workItem from="1461661725752" duration="862000" />
       <workItem from="1462774749492" duration="5810000" />
       <workItem from="1463985185643" duration="8266000" />
-      <workItem from="1464589658594" duration="6400000" />
+      <workItem from="1464589658594" duration="7999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27228000" />
+    <option name="totallyTimeSpent" value="28827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -611,13 +624,6 @@
     <entry file="file://$PROJECT_DIR$/les_1/app/controllers/students.controller.js" />
     <entry file="file://$PROJECT_DIR$/les_1/index.html" />
     <entry file="file://$PROJECT_DIR$/les_1/app/app.js" />
-    <entry file="file://$PROJECT_DIR$/studentsApp/data/trainstations.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="0" column="328" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="78888" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studentsApp/node_modules/angular-animate/angular-animate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -634,14 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studentsApp/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studentsApp/style/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -650,18 +648,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studentsApp/app/controllers/students.controller.js">
+    <entry file="file://$PROJECT_DIR$/studentsApp/data/trainstations.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="180">
+          <caret line="0" column="328" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="78888" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/studentsApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state relative-caret-position="810">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentsApp/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentsApp/app/controllers/students.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-514">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
         </state>
       </provider>
