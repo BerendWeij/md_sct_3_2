@@ -7,6 +7,7 @@
 
     function StudentsController(StudentsService) {
 
+        // vm staat voor view-model
         var vm = this;
 
         /*
@@ -21,7 +22,10 @@
         vm.newStudent = {};
 
         // een 'viewcontroller' functie die het mogelijk maakt om bij te houden op welke student je hebt geklikt
-        vm.setStudent = function(currentStudent){
+        vm.createStudent = createStudent;
+        vm.setStudent = setStudent;
+
+        function setStudent(currentStudent){
             if(vm.currentStudent != currentStudent)
                 vm.currentStudent = currentStudent;
             else
@@ -31,7 +35,7 @@
 
         // een viewcontroller functie die het mogelijk maakt om nieuwe studenten aan te maken
         // de daadwerkelijke data bewerking (iets toevoegen aan een array) doen we in een service
-        vm.createStudent = function(){
+        function createStudent(){
             StudentsService.createStudent({
                 name: vm.newStudent.name,
                 age: vm.newStudent.age

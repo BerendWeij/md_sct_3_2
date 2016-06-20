@@ -20,16 +20,18 @@
             {name:"Donovan", age:18}
         ];
 
-        self.createStudent = function(newStudent){
+        self.createStudent = createStudent;
+
+        function createStudent(newStudent){
             self.allStudents.splice(0, 0, newStudent);
         };
 
-        $http.get('data/trainstations.json').then(function(stations){
+        /*$http.get('data/trainstations.json').then(function(stations){
             // we maken eerst de data leeg
             self.allStudents.length = 0;
             // en stoppen vervolgens de geladen data in de allStudents array
             // dit zorgt ervoor dat we nog steds met dezelfde array werken
             angular.extend(self.allStudents, stations.data);
-        });
+        });*/
     }
 })();
